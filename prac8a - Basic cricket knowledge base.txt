@@ -1,0 +1,6 @@
+batsman(sachin)
+batsman(virat)
+bowler(sachin)
+
+all_rounder(x):- batsman(x),bowler(x)
+cricketer(x):- batsman(x)
